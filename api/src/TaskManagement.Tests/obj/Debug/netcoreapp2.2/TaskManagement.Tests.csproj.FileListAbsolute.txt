@@ -1,0 +1,14 @@
+C:\git\task_management\src\TaskManagement.Tests\bin\Debug\netcoreapp2.2\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\git\task_management\src\TaskManagement.Tests\bin\Debug\netcoreapp2.2\xunit.runner.reporters.netcoreapp10.dll
+C:\git\task_management\src\TaskManagement.Tests\bin\Debug\netcoreapp2.2\xunit.runner.utility.netcoreapp10.dll
+C:\git\task_management\src\TaskManagement.Tests\bin\Debug\netcoreapp2.2\TaskManagement.Tests.deps.json
+C:\git\task_management\src\TaskManagement.Tests\bin\Debug\netcoreapp2.2\TaskManagement.Tests.runtimeconfig.json
+C:\git\task_management\src\TaskManagement.Tests\bin\Debug\netcoreapp2.2\TaskManagement.Tests.runtimeconfig.dev.json
+C:\git\task_management\src\TaskManagement.Tests\bin\Debug\netcoreapp2.2\TaskManagement.Tests.dll
+C:\git\task_management\src\TaskManagement.Tests\bin\Debug\netcoreapp2.2\TaskManagement.Tests.pdb
+C:\git\task_management\src\TaskManagement.Tests\obj\Debug\netcoreapp2.2\TaskManagement.Tests.csprojAssemblyReference.cache
+C:\git\task_management\src\TaskManagement.Tests\obj\Debug\netcoreapp2.2\TaskManagement.Tests.csproj.CoreCompileInputs.cache
+C:\git\task_management\src\TaskManagement.Tests\obj\Debug\netcoreapp2.2\TaskManagement.Tests.AssemblyInfoInputs.cache
+C:\git\task_management\src\TaskManagement.Tests\obj\Debug\netcoreapp2.2\TaskManagement.Tests.AssemblyInfo.cs
+C:\git\task_management\src\TaskManagement.Tests\obj\Debug\netcoreapp2.2\TaskManagement.Tests.dll
+C:\git\task_management\src\TaskManagement.Tests\obj\Debug\netcoreapp2.2\TaskManagement.Tests.pdb

@@ -1,0 +1,44 @@
+version: '3.4'
+
+services:
+  sql_database:
+    image: mcr.microsoft.com/mssql/server:2017-latest
+   
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=SqlServer2017!
+    ports: 
+      - "1401:1433"
+    networks:
+      - dockersql-network
+
+  taskmanagement.externalservice:
+    image: ${DOCKER_REGISTRY-}taskmanagementexternalservice
+    ports: 
+      - "32779:80"
+    build:
+      context: .
+      dockerfile: src/TaskManagement.ExternalService/Dockerfile
+    depends_on:
+      - sql_database
+    networks:
+      - dockersql-network
+
+  taskmanagement.api:
+    image: ${DOCKER_REGISTRY-}taskmanagementapi
+    ports: 
+      - "32780:80"
+    build:
+      context: .
+      dockerfile: src/TaskManagement.API/Dockerfile
+    depends_on:
+      - sql_database
+      - taskmanagement.externalservice
+    networks:
+      - dockersql-network
+
+  
+
+networks: 
+  dockersql-network:
+    driver: bridge

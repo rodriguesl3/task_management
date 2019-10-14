@@ -1,0 +1,9 @@
+C:\git\task_management\src\TaskManagement.Domain\bin\Debug\netstandard2.0\TaskManagement.Domain.deps.json
+C:\git\task_management\src\TaskManagement.Domain\bin\Debug\netstandard2.0\TaskManagement.Domain.dll
+C:\git\task_management\src\TaskManagement.Domain\bin\Debug\netstandard2.0\TaskManagement.Domain.pdb
+C:\git\task_management\src\TaskManagement.Domain\obj\Debug\netstandard2.0\TaskManagement.Domain.csproj.CoreCompileInputs.cache
+C:\git\task_management\src\TaskManagement.Domain\obj\Debug\netstandard2.0\TaskManagement.Domain.AssemblyInfoInputs.cache
+C:\git\task_management\src\TaskManagement.Domain\obj\Debug\netstandard2.0\TaskManagement.Domain.AssemblyInfo.cs
+C:\git\task_management\src\TaskManagement.Domain\obj\Debug\netstandard2.0\TaskManagement.Domain.dll
+C:\git\task_management\src\TaskManagement.Domain\obj\Debug\netstandard2.0\TaskManagement.Domain.pdb
+C:\git\task_management\src\TaskManagement.Domain\obj\Debug\netstandard2.0\TaskManagement.Domain.csprojAssemblyReference.cache

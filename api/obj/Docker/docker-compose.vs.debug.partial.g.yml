@@ -1,0 +1,39 @@
+version: '3.4'
+
+services:
+  taskmanagement.api:
+    image: taskmanagementapi:dev
+    build:
+      target: base
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_taskmanagement.api$
+    volumes:
+      - C:\git\task_management\src\TaskManagement.API:/app
+      - C:\Users\luskr\vsdbg\vs2017u5:/remote_debugger:ro
+#$nuget_volume_mapping_taskmanagement.api$
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_taskmanagement.api$ \"bin/Debug/netcoreapp2.2/TaskManagement.API.dll\""
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
+
+  taskmanagement.externalservice:
+    image: taskmanagementexternalservice:dev
+    build:
+      target: base
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_taskmanagement.externalservice$
+    volumes:
+      - C:\git\task_management\src\TaskManagement.ExternalService:/app
+      - C:\Users\luskr\vsdbg\vs2017u5:/remote_debugger:ro
+#$nuget_volume_mapping_taskmanagement.externalservice$
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_taskmanagement.externalservice$ \"bin/Debug/netcoreapp2.2/TaskManagement.ExternalService.dll\""
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
+

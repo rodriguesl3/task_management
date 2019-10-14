@@ -1,0 +1,15 @@
+version: '3.4'
+
+services:
+  taskmanagement.api:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "80"
+
+  taskmanagement.externalservice:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "80"
+

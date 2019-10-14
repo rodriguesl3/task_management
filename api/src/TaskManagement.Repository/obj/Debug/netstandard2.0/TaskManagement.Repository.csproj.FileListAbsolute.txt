@@ -1,0 +1,12 @@
+C:\git\task_management\src\TaskManagement.Repository\bin\Debug\netstandard2.0\TaskManagement.Repository.deps.json
+C:\git\task_management\src\TaskManagement.Repository\bin\Debug\netstandard2.0\TaskManagement.Repository.dll
+C:\git\task_management\src\TaskManagement.Repository\bin\Debug\netstandard2.0\TaskManagement.Repository.pdb
+C:\git\task_management\src\TaskManagement.Repository\obj\Debug\netstandard2.0\TaskManagement.Repository.csprojAssemblyReference.cache
+C:\git\task_management\src\TaskManagement.Repository\obj\Debug\netstandard2.0\TaskManagement.Repository.csproj.CoreCompileInputs.cache
+C:\git\task_management\src\TaskManagement.Repository\obj\Debug\netstandard2.0\TaskManagement.Repository.AssemblyInfoInputs.cache
+C:\git\task_management\src\TaskManagement.Repository\obj\Debug\netstandard2.0\TaskManagement.Repository.AssemblyInfo.cs
+C:\git\task_management\src\TaskManagement.Repository\obj\Debug\netstandard2.0\TaskManagement.Repository.dll
+C:\git\task_management\src\TaskManagement.Repository\obj\Debug\netstandard2.0\TaskManagement.Repository.pdb
+C:\git\task_management\src\TaskManagement.Repository\bin\Debug\netstandard2.0\TaskManagement.Domain.dll
+C:\git\task_management\src\TaskManagement.Repository\bin\Debug\netstandard2.0\TaskManagement.Domain.pdb
+C:\git\task_management\src\TaskManagement.Repository\obj\Debug\netstandard2.0\TaskManagement.Repository.csproj.CopyComplete

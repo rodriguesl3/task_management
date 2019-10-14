@@ -1,0 +1,46 @@
+networks:
+  dockersql-network:
+    driver: bridge
+services:
+  sql_database:
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: SqlServer2017!
+    image: mcr.microsoft.com/mssql/server:2017-latest
+    networks:
+      dockersql-network: {}
+    ports:
+    - published: 1401
+      target: 1433
+  taskmanagement.api:
+    build:
+      context: C:\git\task_management
+      dockerfile: src/TaskManagement.API/Dockerfile
+    depends_on:
+    - sql_database
+    - taskmanagement.externalservice
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: taskmanagementapi
+    networks:
+      dockersql-network: {}
+    ports:
+    - published: 32780
+      target: 80
+    - target: 80
+  taskmanagement.externalservice:
+    build:
+      context: C:\git\task_management
+      dockerfile: src/TaskManagement.ExternalService/Dockerfile
+    depends_on:
+    - sql_database
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: taskmanagementexternalservice
+    networks:
+      dockersql-network: {}
+    ports:
+    - published: 32779
+      target: 80
+    - target: 80
+version: '3.4'
