@@ -12,3 +12,17 @@ C:\git\task_management\src\TaskManagement.Application\bin\Debug\netstandard2.0\T
 C:\git\task_management\src\TaskManagement.Application\obj\Debug\netstandard2.0\TaskManagement.Application.csproj.CopyComplete
 C:\git\task_management\src\TaskManagement.Application\bin\Debug\netstandard2.0\TaskManagement.Repository.dll
 C:\git\task_management\src\TaskManagement.Application\bin\Debug\netstandard2.0\TaskManagement.Repository.pdb
+C:\git\task_management\api\src\TaskManagement.Application\bin\Debug\netstandard2.0\TaskManagement.Application.deps.json
+C:\git\task_management\api\src\TaskManagement.Application\bin\Debug\netstandard2.0\TaskManagement.Application.dll
+C:\git\task_management\api\src\TaskManagement.Application\bin\Debug\netstandard2.0\TaskManagement.Application.pdb
+C:\git\task_management\api\src\TaskManagement.Application\bin\Debug\netstandard2.0\TaskManagement.Domain.dll
+C:\git\task_management\api\src\TaskManagement.Application\bin\Debug\netstandard2.0\TaskManagement.Repository.dll
+C:\git\task_management\api\src\TaskManagement.Application\bin\Debug\netstandard2.0\TaskManagement.Domain.pdb
+C:\git\task_management\api\src\TaskManagement.Application\bin\Debug\netstandard2.0\TaskManagement.Repository.pdb
+C:\git\task_management\api\src\TaskManagement.Application\obj\Debug\netstandard2.0\TaskManagement.Application.csprojAssemblyReference.cache
+C:\git\task_management\api\src\TaskManagement.Application\obj\Debug\netstandard2.0\TaskManagement.Application.csproj.CoreCompileInputs.cache
+C:\git\task_management\api\src\TaskManagement.Application\obj\Debug\netstandard2.0\TaskManagement.Application.AssemblyInfoInputs.cache
+C:\git\task_management\api\src\TaskManagement.Application\obj\Debug\netstandard2.0\TaskManagement.Application.AssemblyInfo.cs
+C:\git\task_management\api\src\TaskManagement.Application\obj\Debug\netstandard2.0\TaskManagement.Application.csproj.CopyComplete
+C:\git\task_management\api\src\TaskManagement.Application\obj\Debug\netstandard2.0\TaskManagement.Application.dll
+C:\git\task_management\api\src\TaskManagement.Application\obj\Debug\netstandard2.0\TaskManagement.Application.pdb

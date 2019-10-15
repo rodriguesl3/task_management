@@ -28,7 +28,8 @@ namespace TaskManagement.API.Controllers
         [HttpGet("{id}")]
         public async Task<IActionResult> GetTaskById(int id)
         {
-            return Ok();
+            var response = await _taskApp.GetTaskById(id);
+            return Ok(response);
         }
 
         [HttpPost]

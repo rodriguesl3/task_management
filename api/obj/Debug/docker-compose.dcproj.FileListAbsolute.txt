@@ -12,3 +12,17 @@ C:\git\task_management\bin\Debug\TaskManagement.Application.dll
 C:\git\task_management\bin\Debug\TaskManagement.Application.pdb
 C:\git\task_management\bin\Debug\TaskManagement.ExternalService.dll
 C:\git\task_management\bin\Debug\TaskManagement.ExternalService.pdb
+C:\git\task_management\api\bin\Debug\TaskManagement.API.dll
+C:\git\task_management\api\bin\Debug\TaskManagement.ExternalService.dll
+C:\git\task_management\api\bin\Debug\TaskManagement.Domain.dll
+C:\git\task_management\api\bin\Debug\TaskManagement.Repository.dll
+C:\git\task_management\api\bin\Debug\TaskManagement.Application.dll
+C:\git\task_management\api\bin\Debug\TaskManagement.API.pdb
+C:\git\task_management\api\bin\Debug\TaskManagement.API.xml
+C:\git\task_management\api\bin\Debug\TaskManagement.ExternalService.pdb
+C:\git\task_management\api\bin\Debug\TaskManagement.Domain.pdb
+C:\git\task_management\api\bin\Debug\TaskManagement.Repository.pdb
+C:\git\task_management\api\bin\Debug\TaskManagement.Application.pdb
+C:\git\task_management\api\obj\Debug\docker-compose.dcprojAssemblyReference.cache
+C:\git\task_management\api\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+C:\git\task_management\api\obj\Debug\docker-compose.dcproj.CopyComplete

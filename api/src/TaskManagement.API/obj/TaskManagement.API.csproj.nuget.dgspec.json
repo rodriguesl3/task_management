@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\git\\task_management\\src\\TaskManagement.API\\TaskManagement.API.csproj": {}
+    "C:\\git\\task_management\\api\\src\\TaskManagement.API\\TaskManagement.API.csproj": {}
   },
   "projects": {
-    "C:\\git\\task_management\\src\\TaskManagement.API\\TaskManagement.API.csproj": {
+    "C:\\git\\task_management\\api\\src\\TaskManagement.API\\TaskManagement.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\git\\task_management\\src\\TaskManagement.API\\TaskManagement.API.csproj",
+        "projectUniqueName": "C:\\git\\task_management\\api\\src\\TaskManagement.API\\TaskManagement.API.csproj",
         "projectName": "TaskManagement.API",
-        "projectPath": "C:\\git\\task_management\\src\\TaskManagement.API\\TaskManagement.API.csproj",
+        "projectPath": "C:\\git\\task_management\\api\\src\\TaskManagement.API\\TaskManagement.API.csproj",
         "packagesPath": "C:\\Users\\luskr\\.nuget\\packages\\",
-        "outputPath": "C:\\git\\task_management\\src\\TaskManagement.API\\obj\\",
+        "outputPath": "C:\\git\\task_management\\api\\src\\TaskManagement.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -30,14 +30,14 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\git\\task_management\\src\\TaskManagement.Application\\TaskManagement.Application.csproj": {
-                "projectPath": "C:\\git\\task_management\\src\\TaskManagement.Application\\TaskManagement.Application.csproj"
+              "C:\\git\\task_management\\api\\src\\TaskManagement.Application\\TaskManagement.Application.csproj": {
+                "projectPath": "C:\\git\\task_management\\api\\src\\TaskManagement.Application\\TaskManagement.Application.csproj"
               },
-              "C:\\git\\task_management\\src\\TaskManagement.Domain\\TaskManagement.Domain.csproj": {
-                "projectPath": "C:\\git\\task_management\\src\\TaskManagement.Domain\\TaskManagement.Domain.csproj"
+              "C:\\git\\task_management\\api\\src\\TaskManagement.Domain\\TaskManagement.Domain.csproj": {
+                "projectPath": "C:\\git\\task_management\\api\\src\\TaskManagement.Domain\\TaskManagement.Domain.csproj"
               },
-              "C:\\git\\task_management\\src\\TaskManagement.Repository\\TaskManagement.Repository.csproj": {
-                "projectPath": "C:\\git\\task_management\\src\\TaskManagement.Repository\\TaskManagement.Repository.csproj"
+              "C:\\git\\task_management\\api\\src\\TaskManagement.Repository\\TaskManagement.Repository.csproj": {
+                "projectPath": "C:\\git\\task_management\\api\\src\\TaskManagement.Repository\\TaskManagement.Repository.csproj"
               }
             }
           }
@@ -93,14 +93,14 @@
         }
       }
     },
-    "C:\\git\\task_management\\src\\TaskManagement.Application\\TaskManagement.Application.csproj": {
+    "C:\\git\\task_management\\api\\src\\TaskManagement.Application\\TaskManagement.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\git\\task_management\\src\\TaskManagement.Application\\TaskManagement.Application.csproj",
+        "projectUniqueName": "C:\\git\\task_management\\api\\src\\TaskManagement.Application\\TaskManagement.Application.csproj",
         "projectName": "TaskManagement.Application",
-        "projectPath": "C:\\git\\task_management\\src\\TaskManagement.Application\\TaskManagement.Application.csproj",
+        "projectPath": "C:\\git\\task_management\\api\\src\\TaskManagement.Application\\TaskManagement.Application.csproj",
         "packagesPath": "C:\\Users\\luskr\\.nuget\\packages\\",
-        "outputPath": "C:\\git\\task_management\\src\\TaskManagement.Application\\obj\\",
+        "outputPath": "C:\\git\\task_management\\api\\src\\TaskManagement.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -119,11 +119,11 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\git\\task_management\\src\\TaskManagement.Domain\\TaskManagement.Domain.csproj": {
-                "projectPath": "C:\\git\\task_management\\src\\TaskManagement.Domain\\TaskManagement.Domain.csproj"
+              "C:\\git\\task_management\\api\\src\\TaskManagement.Domain\\TaskManagement.Domain.csproj": {
+                "projectPath": "C:\\git\\task_management\\api\\src\\TaskManagement.Domain\\TaskManagement.Domain.csproj"
               },
-              "C:\\git\\task_management\\src\\TaskManagement.Repository\\TaskManagement.Repository.csproj": {
-                "projectPath": "C:\\git\\task_management\\src\\TaskManagement.Repository\\TaskManagement.Repository.csproj"
+              "C:\\git\\task_management\\api\\src\\TaskManagement.Repository\\TaskManagement.Repository.csproj": {
+                "projectPath": "C:\\git\\task_management\\api\\src\\TaskManagement.Repository\\TaskManagement.Repository.csproj"
               }
             }
           }
@@ -156,14 +156,14 @@
         }
       }
     },
-    "C:\\git\\task_management\\src\\TaskManagement.Domain\\TaskManagement.Domain.csproj": {
+    "C:\\git\\task_management\\api\\src\\TaskManagement.Domain\\TaskManagement.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\git\\task_management\\src\\TaskManagement.Domain\\TaskManagement.Domain.csproj",
+        "projectUniqueName": "C:\\git\\task_management\\api\\src\\TaskManagement.Domain\\TaskManagement.Domain.csproj",
         "projectName": "TaskManagement.Domain",
-        "projectPath": "C:\\git\\task_management\\src\\TaskManagement.Domain\\TaskManagement.Domain.csproj",
+        "projectPath": "C:\\git\\task_management\\api\\src\\TaskManagement.Domain\\TaskManagement.Domain.csproj",
         "packagesPath": "C:\\Users\\luskr\\.nuget\\packages\\",
-        "outputPath": "C:\\git\\task_management\\src\\TaskManagement.Domain\\obj\\",
+        "outputPath": "C:\\git\\task_management\\api\\src\\TaskManagement.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -212,14 +212,14 @@
         }
       }
     },
-    "C:\\git\\task_management\\src\\TaskManagement.Repository\\TaskManagement.Repository.csproj": {
+    "C:\\git\\task_management\\api\\src\\TaskManagement.Repository\\TaskManagement.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\git\\task_management\\src\\TaskManagement.Repository\\TaskManagement.Repository.csproj",
+        "projectUniqueName": "C:\\git\\task_management\\api\\src\\TaskManagement.Repository\\TaskManagement.Repository.csproj",
         "projectName": "TaskManagement.Repository",
-        "projectPath": "C:\\git\\task_management\\src\\TaskManagement.Repository\\TaskManagement.Repository.csproj",
+        "projectPath": "C:\\git\\task_management\\api\\src\\TaskManagement.Repository\\TaskManagement.Repository.csproj",
         "packagesPath": "C:\\Users\\luskr\\.nuget\\packages\\",
-        "outputPath": "C:\\git\\task_management\\src\\TaskManagement.Repository\\obj\\",
+        "outputPath": "C:\\git\\task_management\\api\\src\\TaskManagement.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -238,8 +238,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\git\\task_management\\src\\TaskManagement.Domain\\TaskManagement.Domain.csproj": {
-                "projectPath": "C:\\git\\task_management\\src\\TaskManagement.Domain\\TaskManagement.Domain.csproj"
+              "C:\\git\\task_management\\api\\src\\TaskManagement.Domain\\TaskManagement.Domain.csproj": {
+                "projectPath": "C:\\git\\task_management\\api\\src\\TaskManagement.Domain\\TaskManagement.Domain.csproj"
               }
             }
           }

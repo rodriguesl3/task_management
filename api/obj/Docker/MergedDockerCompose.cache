@@ -14,7 +14,7 @@ services:
       target: 1433
   taskmanagement.api:
     build:
-      context: C:\git\task_management
+      context: C:\git\task_management\api
       dockerfile: src/TaskManagement.API/Dockerfile
     depends_on:
     - sql_database
@@ -30,7 +30,7 @@ services:
     - target: 80
   taskmanagement.externalservice:
     build:
-      context: C:\git\task_management
+      context: C:\git\task_management\api
       dockerfile: src/TaskManagement.ExternalService/Dockerfile
     depends_on:
     - sql_database
