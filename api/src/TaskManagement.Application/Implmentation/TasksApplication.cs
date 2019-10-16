@@ -43,11 +43,6 @@ namespace TaskManagement.Application.Implmentation
 
         public async Task<KeyValuePair<bool, string>> UpdateTask(Domain.Entities.Task taskObject)
         {
-            var isUnique = await CheckUniquenessName(taskObject.Name);
-            if (!isUnique)
-                return new KeyValuePair<bool, string>(false, "task name already exisist");
-
-
             lock (lockQuantity)
             {
                 var response = _taskRepo.Update(taskObject);
