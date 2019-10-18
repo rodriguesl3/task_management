@@ -59,25 +59,3 @@ class TaskList extends StatelessWidget {
         });
   }
 }
-
-Future<bool> deleteDialog(BuildContext context) {
-  return showDialog(
-      context: context,
-      builder: (BuildContext context) {
-        return AlertDialog(
-          title: Text('Are you sure, remove this one?'),
-          actions: <Widget>[
-            FlatButton(
-                child: Text('Yes'),
-                onPressed: () {
-                  Navigator.of(context).pop(true);
-                }),
-            FlatButton(
-                child: Text('No'),
-                onPressed: () {
-                  Navigator.of(context).pop(false);
-                }),
-          ],
-        );
-      });
-}
