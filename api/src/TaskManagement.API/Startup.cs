@@ -62,13 +62,17 @@ namespace TaskManagement.API
             app.UseCors("AllowMyOrigin");
 
             app.UseSwagger();
+
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Web App V1");
+            });
+
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-                app.UseSwaggerUI(c =>
-                {
-                    c.SwaggerEndpoint("/swagger/v1/swagger.json", "Web App V1");
-                });
+                
             }
 
             app.UseMvc();
