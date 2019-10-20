@@ -44,7 +44,7 @@ namespace TaskManagement.API.Controllers
             if (wasCreated.Key)
                 return Ok();
 
-            return StatusCode(500, "Error to create a tasks");
+            return StatusCode(400, new { data = wasCreated.Value });
         }
 
         [HttpPut]
@@ -63,7 +63,7 @@ namespace TaskManagement.API.Controllers
             if (response.Key)
                 return Ok();
 
-            return StatusCode(500, "Error to update");
+            return StatusCode(400, new { data = response.Value });
         }
 
         [HttpGet]

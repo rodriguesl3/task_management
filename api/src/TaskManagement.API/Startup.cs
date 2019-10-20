@@ -25,6 +25,20 @@ namespace TaskManagement.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+
+            services.AddCors();
+
+            services.AddCors(options =>
+            {
+                options.AddPolicy("AllowMyOrigin",
+                builder =>
+                {
+                    builder.WithOrigins("*")
+                                        .AllowAnyHeader()
+                                        .AllowAnyMethod();
+                });
+            });
+
             services.AddDbContext<TaskContext>(options => options.UseSqlServer(Configuration.GetConnectionString("Default")));
 
             services.ContainerInjection();
@@ -44,6 +58,9 @@ namespace TaskManagement.API
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
+
+            app.UseCors("AllowMyOrigin");
+
             app.UseSwagger();
             if (env.IsDevelopment())
             {

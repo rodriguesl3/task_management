@@ -9,11 +9,11 @@ import rootReducers from '../../redux-flow/reducers/index';
 
 import MainContainer from '../MainContainer/MainContainer';
 
-const store = createStore(rootReducers,
-  compose(applyMiddleware(thunk),
-    window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()));
+// const store = createStore(rootReducers,
+//   compose(applyMiddleware(thunk),
+//     window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()));
 
-//const store = createStore(rootReducers, compose(applyMiddleware(thunk)));
+const store = createStore(rootReducers, compose(applyMiddleware(thunk)));
 
 const App = () => (
   <Provider store={store}>
