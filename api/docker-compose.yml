@@ -37,8 +37,6 @@ services:
     networks:
       - dockersql-network
 
-  
-
 networks: 
   dockersql-network:
     driver: bridge
