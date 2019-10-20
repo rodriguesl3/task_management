@@ -1,22 +1,19 @@
 # Task Management
-This is a simple project to create, read, update and delete tasks. This project contain 5 applications:
+This is a simple project to create, read and update tasks. This project contain 5 applications:
 
 1) Backend projects:
 
-    1.1) SQL Server database
+    1.1) **SQL Server database**
 
-    1.2) External Services
+    1.2) **External Services**
 
-    1.3) Task API:
+    1.3) **Task API**
 
-2) React Application:
+2) **React Application**:
     This is a web application where is possible to read informations in browser (e.g. Google Chrome, Firefox, etc...)
 
-3) Flutter Application:
-    THis is a mobile project using Flutter framework, where is possible to build cross platform Android and iOS.
-
-
-
+3) **Flutter Application**:
+    This is a mobile project using Flutter framework, where is possible to build cross platform Android and iOS.
 
 
 ## Task API Management
