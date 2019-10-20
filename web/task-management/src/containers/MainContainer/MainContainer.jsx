@@ -2,44 +2,47 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { withRouter } from 'react-router-dom';
 
-import { getTaskList } from '../../redux-flow/actions/tasks-action'
+import { getTaskList, updateTask } from '../../redux-flow/actions/tasks-action'
 import TaskList from '../../components/task-list'
 
 const mapStateToProps = state => ({
     taskList: state.taskList.tasks,
+    updated: state.taskList.update,
 });
 
 const mapDispatchToProps = dispatch => ({
     onGetTasks: () => dispatch(getTaskList()),
+    onUpdateTaks: (taks) => dispatch(updateTask(taks)),
 });
 
-const updateStatus = (taskObject) => {
-
-    console.log(taskObject);
-
-}
-
-
-
 class MainContainer extends Component {
-    componentDidMount() {
+    componentDidMount(){
+        this.props.onGetTasks();
+    }
+    componentDidUpdate(){
         this.props.onGetTasks();
     }
 
-
-
+    updateStatusHandle = (taskObject) => {
+        this.props.onUpdateTaks(taskObject);
+        this.componentDidMount();
+    }
 
     render() {
         return (
             <div>
-                {/* <NavBar
-                    title="Task Management"
-                    image=""
-                /> */}
+                {
+                    this.props.updated ?
+                        <div class="alert alert-primary" role="alert">
+                            Task udpate successfully!!!
+                        </div>
+                        : ""
+
+                }
                 <div className="row">
                     <div className="col-10 col-sm-4">
                         <TaskList taskList={this.props.taskList}
-                            updateStatus={updateStatus} />
+                            updateStatus={this.updateStatusHandle} />
                     </div>
                 </div>
             </div>

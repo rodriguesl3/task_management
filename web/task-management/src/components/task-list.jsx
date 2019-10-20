@@ -1,12 +1,9 @@
 import React from 'react';
 import CustomCheckBox from './custom-checkbox/custom-checkbox';
 
-
-
-
-
 const TaskList = (props) => {
     const { taskList, updateStatus } = props;
+
     const statusChages = (id, isComplete) => {
         let updateTask = taskList.filter(elm => elm.id == id)[0];
         updateTask.status = isComplete ? 1 : 0;
@@ -20,7 +17,7 @@ const TaskList = (props) => {
             <h3 className="title">What you have to do.</h3>
             <div className="row">
                 <div className="card">
-                    <div class="card-header">Featured</div>
+                    <div className="card-header">Featured</div>
                     <ul className="list-group list-group-flush">
                         {
                             taskList ?
@@ -37,10 +34,6 @@ const TaskList = (props) => {
                         }
                     </ul>
                 </div>
-            </div>
-            <div className="row">
-
-
             </div>
         </div >
     )
