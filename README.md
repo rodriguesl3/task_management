@@ -16,6 +16,10 @@ This is a simple project to create, read and update tasks. This project contain 
     This is a mobile project using Flutter framework, where is possible to build cross platform Android and iOS.
 
 
+![components](https://github.com/rodriguesl3/task_management/blob/master/documentation/request-flow.png?raw=true)
+
+
+
 ## Task API Management
 Task API Management, is composed by 3 services using docker-compose. 
 
