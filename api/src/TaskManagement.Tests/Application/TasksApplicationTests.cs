@@ -85,17 +85,11 @@ namespace TaskManagement.Tests.Application
             var moqRepo = new Mock<ITaskRepository>();
             moqRepo.Setup(x => x.Update(dummyObject)).Returns(1);
 
-            using (var http = new HttpTest())
-            {
-                http.RespondWithJson(new { isUnique = true }, 200);
+            var instance = new TasksApplication(moqRepo.Object);
+            var result = instance.UpdateTask(dummyObject).GetAwaiter().GetResult();
 
-                var instance = new TasksApplication(moqRepo.Object);
-                var result = instance.UpdateTask(dummyObject).GetAwaiter().GetResult();
-
-                Assert.NotNull(instance);
-                Assert.True(result.Key);
-                http.ShouldHaveCalled($"http://taskmanagement.externalservice/api/check/{moqName}").Times(1);
-            }
+            Assert.NotNull(instance);
+            Assert.True(result.Key);
         }
     }
 }
