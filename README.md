@@ -25,6 +25,9 @@ Task API Management, is composed by 3 services using docker-compose.
 
 * To test this project, it is necessary to run ***"docker-compose up"*** command in ***task-management/api*** folder.
 
+![docker-compose](https://github.com/rodriguesl3/task_management/blob/master/documentation/docker-compose.png?raw=true)
+
+
 * When all docker containers are up and running, it is necessary open your favourite browser and access this url: ```http://localhost:32780/swagger/index.html``` after loading, it will open the swagger documentation, where it is possible to read endpoints documentation.
 
 
