@@ -51,6 +51,12 @@ The backend project is responsible for business logic and store information in S
     * It receives a request from **taskmanagement.api** service, through http request.
 
 
+--
+## Test Environment
+In this application was developed unit test focused in business logic.
+Follow evidences: 
+![unit test](https://github.com/rodriguesl3/task_management/blob/master/documentation/unit%20test.png?raw=true)
+
 ---
 ## WEB Task Management
 This project is created using React and Redux architecture. it can read backend services and update a task status to Open or Completed.
